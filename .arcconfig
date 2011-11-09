@@ -1,0 +1,9 @@
+{
+  "project_id" : "arcjira",
+  "conduit_uri" : "https://reviews.facebook.net/",
+  "copyright_holder" : "Facebook",
+  "lint_engine" : "PhutilLintEngine",
+  "phutil_libraries" : {
+    "phabricator" : "../phabricator/src/"
+  }
+}
