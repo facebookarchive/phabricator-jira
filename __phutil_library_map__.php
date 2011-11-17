@@ -15,7 +15,7 @@ phutil_register_library_map(array(
   ),
   'requires_class' =>
   array(
-    'JIRAMailListener' => 'PhabricatorEventListener',
+    'JIRAMailListener' => 'PhutilEventListener',
   ),
   'requires_interface' =>
   array(

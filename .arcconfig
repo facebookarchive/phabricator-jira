@@ -1,5 +1,5 @@
 {
-  "project_id" : "arcjira",
+  "project_id" : "phabricatorjira",
   "conduit_uri" : "https://reviews.facebook.net/",
   "copyright_holder" : "Facebook",
   "lint_engine" : "PhutilLintEngine",

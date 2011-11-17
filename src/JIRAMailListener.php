@@ -16,12 +16,12 @@
  * limitations under the License.
  */
 
-class JIRAMailListener extends PhabricatorEventListener {
+class JIRAMailListener extends PhutilEventListener {
   public function register() {
     $this->listen(PhabricatorEventType::TYPE_DIFFERENTIAL_WILLSENDMAIL);
   }
 
-  public function handleEvent(PhabricatorEvent $event) {
+  public function handleEvent(PhutilEvent $event) {
     $mail = $event->getValue('mail');
     $subject = $mail->getSubject();
     $match = null;
