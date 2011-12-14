@@ -12,3 +12,4 @@ phutil_require_module('phutil', 'events/listener');
 
 
 phutil_require_source('JIRAMailListener.php');
+phutil_require_source('ThriftMarkGenerated.php');

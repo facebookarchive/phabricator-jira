@@ -9,6 +9,7 @@ phutil_register_library_map(array(
   'class' =>
   array(
     'JIRAMailListener' => 'src',
+    'ThriftMarkGenerated' => 'src',
   ),
   'function' =>
   array(
@@ -16,6 +17,7 @@ phutil_register_library_map(array(
   'requires_class' =>
   array(
     'JIRAMailListener' => 'PhutilEventListener',
+    'ThriftMarkGenerated' => 'PhutilEventListener',
   ),
   'requires_interface' =>
   array(
