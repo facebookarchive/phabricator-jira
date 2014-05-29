@@ -2,7 +2,7 @@
  About Phabricator-JIRA
 ========================
 
-**Note that this project is is deprecated. It is neither supported nor any longer the best way to integrate Phabricator with JIRA**
+**Note that this project is is deprecated. It is neither supported nor any longer the best way to integrate Phabricator with JIRA. This is an archived project and is no longer supported or updated by Facebook. Please do not file issues or pull-requests against this repo.**
 
 This package provides Phabricator extensions that allows integration between
 Differential code review tool and JIRA issue tracker.
